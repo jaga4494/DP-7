@@ -1,4 +1,5 @@
 // If we draw a tree for c*a*b - we solve repeated sub probs hence DP.
+// * handling is the tricky part → always think “zero occurrence OR one more occurrence.”
 class Solution {
     // s = aab; p = c*a*b
     public boolean isMatch(String s, String p) {
